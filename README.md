@@ -1,7 +1,7 @@
 # freeboard-actuator-plugin
 <h1>Plugin</h1>
 <h2>Actuator plugin for freeboard.io</h2>
-[caption id="attachment_461" align="alignright" width="346"]<a href="http://blog.onlinux.fr/wp-content/uploads/2016/09/actuator-3.png"><img class="wp-image-461 size-full" src="http://blog.onlinux.fr/wp-content/uploads/2016/09/actuator-3.png" alt="Actuator Widget" width="346" height="426" /></a> Actuator Widget[/caption]
+[caption id="attachment_461" align="alignright" width="346"]<a href="/actuator-3.png"><img class="wp-image-461 size-full" src="/actuator-3.png" alt="Actuator Widget" width="346" height="426" /></a> Actuator Widget[/caption]
 
 This widget plugin is highly based on the interactive-indicator created by XXX.
 
