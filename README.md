@@ -7,7 +7,7 @@ This widget plugin is highly based on the interactive-indicator created by XXX.
 
 I modified it  mainly to fit my needs. It merely links the states ON or OFF to web URL.
 
-<a href="http://blog.onlinux.fr/wp-content/uploads/2016/09/actuator-2.png"><img class="alignleft size-full wp-image-460" src="http://blog.onlinux.fr/wp-content/uploads/2016/09/actuator-2.png" alt="actuator-2" width="965" height="850" /></a>A click on the indicator switches the state ON/OFF of the actuator which is bound to a http request.
+<a href="/actuator-2.png"><img class="alignleft size-full wp-image-460" src="/actuator-2.png" alt="actuator-2" width="965" height="850" /></a>A click on the indicator switches the state ON/OFF of the actuator which is bound to a http request.
 
 &nbsp;
 
@@ -34,4 +34,4 @@ I modified it  mainly to fit my needs. It merely links the states ON or OFF to 
  //DOM Ready
  freeboard.initialize(true);
  })</code></pre>
-<a href="http://blog.onlinux.fr/wp-content/uploads/2016/09/actuator-1.png"><img class="alignleft size-full wp-image-459" src="http://blog.onlinux.fr/wp-content/uploads/2016/09/actuator-1.png" alt="actuator-1" width="965" height="850" /></a>
+<a href="/actuator-1.png"><img class="alignleft size-full wp-image-459" src="/actuator-1.png" alt="actuator-1" width="965" height="850" /></a>
