@@ -1,16 +1,24 @@
-(function()
-{
+// ┌────────────────────────────────────────────────────────────────────┐ \\
+// │ freeboard-actuator-plugin                                          │ \\
+// ├────────────────────────────────────────────────────────────────────┤ \\
+// │ http://blog.onlinux.fr/actuator-plugin-for-freeboard-io/           │ \\
+// ├────────────────────────────────────────────────────────────────────┤ \\
+// │ Licensed under the MIT license.                                    │ \\
+// ├────────────────────────────────────────────────────────────────────┤ \\
+// │ Freeboard widget plugin.                                           │ \\
+// └────────────────────────────────────────────────────────────────────┘ \\
+(function () {
     //
     // DECLARATIONS
     //
     var LOADING_INDICATOR_DELAY = 1000;
 
     //
-    
+
     freeboard.loadWidgetPlugin({
         type_name: "actuator",
         display_name: "Actuator",
-        description : "Actuator which can send a value as well as recieve one",
+        description: "Actuator which can send a value as well as recieve one",
         settings: [
             {
                 name: "title",
@@ -41,7 +49,7 @@
                 name: "off_text",
                 display_name: "Off Text",
                 type: "calculated"
-            },
+            }
 
         ],
         newInstance: function (settings, newInstanceCallback) {
@@ -60,7 +68,7 @@
         var onText;
         var offText;
         var url;
-        
+
         function updateState() {
             indicatorElement.toggleClass("on", isOn);
 
@@ -73,18 +81,18 @@
         }
 
 
-        this.onClick = function(e) { 
+        this.onClick = function(e) {
             e.preventDefault()
 
-             var new_val = !isOn
-             this.onCalculatedValueChanged('value', new_val);
-             url = (new_val) ? currentSettings.urlOn: currentSettings.urlOff;
-             if ( _.isUndefined(url) )
-                 freeboard.showDialog($("<div align='center'>url undefined</div>"),"Error!","OK",null,function(){});
-             else {
-                 this.sendValue(url, new_val);
-                 
-             }
+            var new_val = !isOn
+            this.onCalculatedValueChanged('value', new_val);
+            url = (new_val) ? currentSettings.urlOn : currentSettings.urlOff;
+            if (_.isUndefined(url))
+                freeboard.showDialog($("<div align='center'>url undefined</div>"), "Error!", "OK", null, function () {
+                });
+            else {
+                this.sendValue(url, new_val);
+            }
         }
 
 
@@ -111,9 +119,9 @@
             }
             updateState();
         }
-        
+
         var request;
-        
+
         this.sendValue = function (url, options) {
             console.log(url, options);
             request = new XMLHttpRequest();
@@ -126,27 +134,28 @@
             freeboard.showLoadingIndicator(true);
             request.send();
         }
-        
+
         this.alertContents = function () {
             if (request.readyState === XMLHttpRequest.DONE) {
                 if (request.status === 200) {
                     console.log(request.responseText);
-                    setTimeout(function(){
+                    setTimeout(function () {
                         freeboard.showLoadingIndicator(false);
                         //freeboard.showDialog($("<div align='center'>Request response 200</div>"),"Success!","OK",null,function(){});
                     }, LOADING_INDICATOR_DELAY);
                 } else {
                     console.log('There was a problem with the request.');
-                    setTimeout(function(){
+                    setTimeout(function () {
                         freeboard.showLoadingIndicator(false);
-                        freeboard.showDialog($("<div align='center'>There was a problem with the request. Code " + request.status  + request.responseText + " </div>"),"Error!","OK",null,function(){});
-                    }, LOADING_INDICATOR_DELAY);  
+                        freeboard.showDialog($("<div align='center'>There was a problem with the request. Code " + request.status + request.responseText + " </div>"), "Error!", "OK", null, function () {
+                        });
+                    }, LOADING_INDICATOR_DELAY);
                 }
-                
+
             }
-            
+
         }
-        
+
         this.onDispose = function () {
         }
 
