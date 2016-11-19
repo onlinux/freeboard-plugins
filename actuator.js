@@ -18,7 +18,7 @@
     freeboard.loadWidgetPlugin({
         type_name: "actuator",
         display_name: "Actuator",
-        description: "Actuator which can send a value as well as recieve one",
+        description: "Actuator which can send a value as well as receive one",
         settings: [
             {
                 name: "title",
