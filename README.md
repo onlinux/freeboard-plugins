@@ -3,8 +3,8 @@
 <h2>Actuator widget plugin for freeboard.io</h2>
 <a href="/actuator-3.png"><img class="wp-image-461 size-full" src="/actuator-3.png" alt="Actuator Widget" width="346" height="426" /></a>
 
-This widget plugin is highly based on the interactive-indicator created by <a href="https://github.com/stufisher/plugins" target="_blank">Stufisher</a>.
-
+This widget plugin is based on the interactive-indicator created by <a href="https://github.com/stufisher/plugins" target="_blank">Stufisher</a>.
+<h2>See it in action @ <a href="https://goo.gl/hbAXXU" target="_blank">https://goo.gl/hbAXXU</a></h2>
 I modified it  mainly to fit my needs. It merely links the states ON or OFF to web URL.
 
 <a href="/actuator-2.png"><img class="alignleft size-full wp-image-460" src="/actuator-2.png" alt="actuator-2" width="965" height="850" /></a>A click on the indicator switches the state ON/OFF of the actuator which is bound to a http request.
