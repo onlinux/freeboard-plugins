@@ -1,6 +1,12 @@
 # freeboard-plugins
-<h1>Plugin</h1>
-<h2>Actuator widget plugin for freeboard.io</h2>
+<h1>This is a collection of widget plugins for freeboard.io</h1>
+<h4><ul>
+<li>Actuator widget plugin</li>
+<li>switch widget plugin</li>
+<li>slider widget plugin</li>
+<li>dynamic highcharts widget plugin</li>
+</ul>
+</h4>
 <a href="/actuator-3.png"><img class="wp-image-461 size-full" src="/actuator-3.png" alt="Actuator Widget" width="346" height="426" /></a>
 
 This widget plugin is based on the interactive-indicator created by <a href="https://github.com/stufisher/plugins" target="_blank">Stufisher</a>.
