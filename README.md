@@ -27,11 +27,5 @@ I modified it  mainly to fit my needs. It merely links the states ON or OFF to 
   $(function() {
     //DOM Ready
     freeboard.initialize(true);
-  })head.js(
- 'js/freeboard_plugins.min.js',
- 'plugins/actuator.js',
- $(function() {
- //DOM Ready
- freeboard.initialize(true);
- })</code></pre>
+  })</code></pre>
 <a href="/actuator-1.png"><img class="alignleft size-full wp-image-459" src="/actuator-1.png" alt="actuator-1" width="965" height="850" /></a>
