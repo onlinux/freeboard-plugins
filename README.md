@@ -2,9 +2,9 @@
 <h1>This is a collection of widget plugins for freeboard.io</h1>
 <h4><ul>
 <li>Actuator widget plugin</li>
-<li>switch widget plugin</li>
-<li>slider widget plugin</li>
-<li>dynamic highcharts widget plugin</li>
+<li>Switch widget plugin</li>
+<li>Slider widget plugin</li>
+<li>Dynamic highcharts widget plugin</li>
 </ul>
 </h4>
 <a href="/freeboard-widget-plugins.png"><img class="wp-image-461 size-full" src="/freeboard-widget-plugins.png" alt=" Widget plugins" /></a>
