@@ -1,4 +1,4 @@
-# freeboard-actuator-plugin
+# freeboard-plugins
 <h1>Plugin</h1>
 <h2>Actuator widget plugin for freeboard.io</h2>
 <a href="/actuator-3.png"><img class="wp-image-461 size-full" src="/actuator-3.png" alt="Actuator Widget" width="346" height="426" /></a>
