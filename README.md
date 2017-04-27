@@ -7,6 +7,8 @@
 <li>dynamic highcharts widget plugin</li>
 </ul>
 </h4>
+<a href="/freeboard-widget-plugins.png"><img class="wp-image-461 size-full" src="/freeboad-widget-plugins.png" alt=" Widget plugins" /></a>
+
 <a href="/actuator-3.png"><img class="wp-image-461 size-full" src="/actuator-3.png" alt="Actuator Widget" width="346" height="426" /></a>
 
 This widget plugin is based on the interactive-indicator created by <a href="https://github.com/stufisher/plugins" target="_blank">Stufisher</a>.
