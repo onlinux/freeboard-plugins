@@ -7,7 +7,9 @@
 <li>dynamic highcharts widget plugin</li>
 </ul>
 </h4>
-<a href="/freeboard-widget-plugins.png"><img class="wp-image-461 size-full" src="/freeboad-widget-plugins.png" alt=" Widget plugins" /></a>
+<a href="/freeboard-widget-plugins.png"><img class="wp-image-461 size-full" src="/freeboard-widget-plugins.png" alt=" Widget plugins" /></a>
+
+<h2>Actuator widget plugin</h2>
 
 <a href="/actuator-3.png"><img class="wp-image-461 size-full" src="/actuator-3.png" alt="Actuator Widget" width="346" height="426" /></a>
 
@@ -23,6 +25,7 @@ I modified it  mainly to fit my needs. It merely links the states ON or OFF to 
 
 &nbsp;
 <h1>INSTALLATION</h1>
+<p style="color: #333333;">For installation of any plugins of the collection, proceed as the same as the installation of the actuator.js widget plugin.</p>
 <p style="color: #333333;">Copy the plugin (actuator.js  from github onlinux/freeboard-actuator-plugin) to your freeboard installation, for example:</p>
 
 <pre style="color: #333333;"><code>$ cp ./actuator.js /freeboard/plugins/
