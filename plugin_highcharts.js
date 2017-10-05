@@ -34,13 +34,13 @@
 	var highchartsLineWidgetSettings = [{
 		"name": "timeframe",
 		"display_name": "Timeframe (s)",
-		"type": "text",
+		"type": "number",
 		"description": "Specify the last number of seconds you want to see.",
 		"default_value": 60
 	}, {
 		"name": "blocks",
 		"display_name": "Height (No. Blocks)",
-		"type": "text",
+		"type": "number",
 		"default_value": 4
 	}, {
 		"name": "chartType",
